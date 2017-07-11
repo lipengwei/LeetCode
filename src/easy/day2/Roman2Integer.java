@@ -1,4 +1,4 @@
-package easy;
+package easy.day2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ public class Roman2Integer {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s = "DCXXI";
+		String s = "MMMDCCCLXXXVIII";
 		int res = 0;
 		Map<Character, Integer> m = new HashMap<Character, Integer>();
 		m.put('I', 1);
