@@ -1,8 +1,5 @@
 package easy;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 /**
  * 验证回文串 忽略空格 大小写 和 特殊字符
  * @author 李鹏伟
