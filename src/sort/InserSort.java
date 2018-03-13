@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 思路：为了给要插入的元素腾出空间，我们需要将其余所有元素在插入之前都向右移动一位(其实就是第一位不动，从第二个位置开始遍历)
  * 每次都要把新元素和已经排好的元素进行比较并移动，所有最坏的情况是(移动次数) 1+2+3+4+5+...+n = o(n2)
  */
-public class InserSort {
+public class InserSort { 
 	// 排序主函数
 	public static void sort(Comparable[] a){
 		int n = a.length;
@@ -46,12 +46,40 @@ public class InserSort {
 	}
 	//
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		String ast = in.nextLine();
-		String[] a = ast.split(" ");
-		sort(a);
-		assert isSorted(a);
-		show(a);
+//		Scanner in = new Scanner(System.in);
+//		String ast = in.nextLine();
+//		String[] a = ast.split(" ");
+//		sort(a);
+//		assert isSorted(a);
+		
+		int [] a = {5,4,3,2,1};
+//		insertSort(a);
+		insertSort_1(a);
+		for(int i=0;i<a.length;i++){
+			System.out.println(a[i]);
+		}
+		
+	}
+	
+	public static void insertSort(int [] a){
+		for(int i=1;i<a.length;i++){
+			for(int j=i;j>0&&a[j] < a[j-1]; j--){
+				int t = a[j];
+				a[j] = a[j-1];
+				a[j-1] = t;
+			}
+		}
+	}
+	
+	public static void insertSort_1(int [] a){
+		int i,j,t;
+		for(i=1;i<a.length;i++){
+			t = a[i];
+			for(j=i;j>0&&a[j] < a[j-1]; j--){
+				a[j] = a[j-1];
+			}
+			a[j] = t;
+		}
 	}
 
 }
