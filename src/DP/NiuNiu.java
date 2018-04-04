@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/*
+ * 
+ */
 public class NiuNiu {
 
 	public static void main(String[] args){

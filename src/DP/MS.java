@@ -2,7 +2,10 @@ package DP;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+/*
+ * 输入一串数字，求组不成数字的最小值
+ * （5，4）-1；（1，2，4）-3；（1，2，3，4，5，7，8，9）-10
+ */
 public class MS {
 
 	public static void main(String[] args) {

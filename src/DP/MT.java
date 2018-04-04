@@ -1,7 +1,10 @@
 package DP;
 
 import java.util.Scanner;
-
+/*
+ * 美团的在线编程  abaaba  aba  --- 计算所有 S-T+1个子串的距离和
+ * 距离为各个位置上面不一样的个数
+ */
 public class MT {
 
 	public static void main(String[] args) {

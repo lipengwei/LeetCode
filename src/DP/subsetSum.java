@@ -1,6 +1,6 @@
 package DP;
 /*
- * 子集和问题
+ * 子集和问题  回溯法，所有子集和为固定值的 列表
  */
 import java.util.ArrayList;
 

@@ -1,7 +1,9 @@
 package DP;
 
 import java.util.Scanner;
-
+/*
+ * 股票大王    没做完整
+ */
 public class Stock {
 
 	public static void main(String[] args) {
