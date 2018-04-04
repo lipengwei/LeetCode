@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 /*
- * 
+ * 牛牛找工作，网易的在线编程题
  */
 public class NiuNiu {
 
