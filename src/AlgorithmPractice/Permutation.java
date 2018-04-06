@@ -7,6 +7,7 @@ import java.util.List;
  * 1 + 【后面的全排列】
  * 递归的实现这个过程
  * 递归出口就是 这个数组只剩下最后一个元素
+ * 1，2，3，4，分别开头 ，然后交换，然后在交换回来
  */
 public class Permutation {
 

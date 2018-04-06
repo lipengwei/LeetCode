@@ -2,7 +2,9 @@ package DP;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
-
+/*
+ * 阿里在线编程题，压缩数据发，停车场同时停车数量
+ */
 public class Main {
 
     private static final String carSplit =";";

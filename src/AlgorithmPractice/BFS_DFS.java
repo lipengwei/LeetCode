@@ -3,7 +3,9 @@ package AlgorithmPractice;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-
+/*
+ * 图的深度优先 广度优先算法
+ */
 public class BFS_DFS {
 	//5*5 矩阵
 //	public static int [][] matrix = {{0,1,0,1,0},{1,0,1,0,1},{0,1,0,1,1},{1,0,1,0,0},{0,1,1,0,0}};

@@ -3,7 +3,7 @@ package StackQueue;
 import java.util.Stack;
 /*
  * 栈的应用
- *
+ * 逆波兰表达式
  */
 public class Polish_Notation {
 

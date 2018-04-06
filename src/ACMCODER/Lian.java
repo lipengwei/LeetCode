@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/*
+ * 百度在线编程题   
+ */
 public class Lian {
 
 	public static void main(String[] args) {

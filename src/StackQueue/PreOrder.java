@@ -2,7 +2,9 @@ package StackQueue;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+ * «∞–Ú≈≈¡–
+ */
 public class PreOrder {
 	public static List<Integer> li = new ArrayList<Integer>();
 	public static void main(String[] args) {

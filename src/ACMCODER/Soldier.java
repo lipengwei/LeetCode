@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
 
+/*
+ * 排队，个高的挡住了个低的，求能看到的士兵数目
+ * 使用栈来解决问题
+ */
 public class Soldier {
 
 	public static void main(String[] args) {

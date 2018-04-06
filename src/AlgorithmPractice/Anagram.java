@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /*
  * 统计方法
+ * 计算一个数组中的大多数
  */
 public class Anagram {
 

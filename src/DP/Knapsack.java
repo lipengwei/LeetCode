@@ -2,7 +2,9 @@ package DP;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/*
+ * 0-1±³°üÎÊÌâ
+ */
 public class Knapsack {
 
 	public static void main(String[] args) {
