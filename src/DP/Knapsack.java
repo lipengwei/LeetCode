@@ -1,7 +1,4 @@
 package DP;
-
-import java.util.HashMap;
-import java.util.Map;
 /*
  * 0-1±³°üÎÊÌâ
  */
@@ -13,7 +10,13 @@ public class Knapsack {
 //		int[][] kp = new int[6][21];
 //		Knapsack(v,w,kp);
 		int hm = 5;
-		System.out.println(--hm);
+		String a = "asdf";
+		String b = new String("asdf");
+		System.out.println(a+b);
+		if(a.equals(b)){
+			System.out.println("a");
+		}
+//		System.out.println(--hm);
 	}
 	
 	public static void Knapsack(int[] v,int[] w, int[][] kp){

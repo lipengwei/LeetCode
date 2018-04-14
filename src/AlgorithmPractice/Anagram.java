@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /*
  * 统计方法
- * 计算一个数组中的大多数
+ * 计算一个数组中的大多数  必须大于 n/2 才能用
  */
 public class Anagram {
 
